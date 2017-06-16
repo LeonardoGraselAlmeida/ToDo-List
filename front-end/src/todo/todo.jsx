@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import { connect } from 'react-redux';
 
 import PageHeader from '../template/pageHeader'
 import TodoForm from './todoForm';
@@ -68,8 +69,8 @@ export default class Todo extends Component {
         return (
             <div>
                 <PageHeader name='Tarefas' small='Cadastro'></PageHeader>
-                <TodoForm handleAdd={this.handleAdd} handleChange={this.handleChange} description={this.state.description} handleSearch={this.handleSearch} handleClear={this.handleClear} />
-                <TodoList list={this.state.list} handleRemove={this.handleRemove} handleMarkAsDone={this.handleMarkAsDone} handleMarkAsPending={this.handleMarkAsPending} />
+                <TodoForm />
+                <TodoList />
             </div>
         )
     }
