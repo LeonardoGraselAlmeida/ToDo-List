@@ -1,18 +1,18 @@
 # TO-DO React
 
-Projeto utilizando React
+Projeto utilizando ReactJS, Redux, MongoDB, NodeJS
 
-#### Antes de fazer o download das dependências, tenha certeza que tem o Node instalado na maquina. 
+#### Antes de fazer o download das dependências, tenha certeza que tem o Node instalado na maquina.
 
 ## Desenvolvimento
 
 ### Utilizando o terminal, Na raiz do Projeto BackEnd
 
-#### Realizar o seguinte comando no terminal para fazer download das dependências.
+#### Realizar o Download das dependências: 
 
 <code> npm i </code>
 
-#### Assim que finalizar poder estar usando os seguintes comando:
+#### Antes de colocar o BackEnd a rodar tenha certeza que o MongoDB esteja rodando na porta 27017.
 
 <code> npm run dev </code>
 ##### Esse comando vai rodar o servidor em modo desenvolvedor, utilizando o nodemon 
@@ -22,11 +22,9 @@ Projeto utilizando React
 
 ### Utilizando o terminal, Na raiz do Projeto FrontEnd
 
-#### Realizar o seguinte comando no terminal para fazer download das dependências.
+#### Realizar o Download das dependências: 
 
 <code> npm i </code>
-
-#### Assim que finalizar poder estar usando os seguintes comando:
 
 <code> npm run dev </code>
 ##### Esse comando vai rodar o servidor em modo desenvolvedor, utilizando o webpack 
