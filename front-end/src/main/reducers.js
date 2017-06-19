@@ -1,9 +1,9 @@
-import { combineReducers} from 'redux';
+
+import { combineReducers } from 'redux'
+import todoReducer from '../todo/todoReducer'
 
 const rootReducer = combineReducers({
-    todo: () =>({
-        description: 'Ler Livro'
-    })
-});
+    todo: todoReducer
+})
 
-export default rootReducer;
+export default rootReducer
